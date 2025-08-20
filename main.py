@@ -1,7 +1,7 @@
 import requests
 import threading
 
-threads_count = 2
+threads_count = 10
 
 def process_ip(line):
     line = line.strip()
